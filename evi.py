@@ -8,6 +8,7 @@ import numpy as np
 from pyhdf.SD import SD, SDC
 import os
 
+#get EVI from hdf data
 
 
 directory = "D:/DATA2/"
@@ -54,10 +55,5 @@ for filename in os.listdir(directory):
             
             
         except:
-            print("error")
-            
-        
-            
-        
-        
-    
+            print("error")   
+   
